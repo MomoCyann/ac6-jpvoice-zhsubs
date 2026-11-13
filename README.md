@@ -5,6 +5,9 @@
 
 一句话原理：**游戏只有一个语言开关，它同时决定语音包和文本资源。汉化组只改了"英文槽"，所以我们把英文槽里的中文资源，复制进"日文槽"。**
 
+> **只想装补丁、不想看原理？** 看 **[给玩家的使用说明（小白版）](docs/USER-GUIDE.md)**，或者直接用补丁包里附带的 `使用说明.txt`。
+> 本 README 面向的是想**自己动手改、或者想二次开发**的人。
+
 ---
 
 ## 目录
@@ -399,6 +402,8 @@ cp DATA.TBL.bak-original DATA.TBL
 
 | 文件 | 内容 |
 |---|---|
+| [docs/USER-GUIDE.md](docs/USER-GUIDE.md) | **给玩家的使用说明**：要准备什么、怎么覆盖、装坏了怎么办（不讲原理） |
+| [dist/使用说明.txt](dist/使用说明.txt) | 上面这份的纯文本版，直接塞进补丁压缩包一起分发 |
 | [docs/FORMAT.md](docs/FORMAT.md) | 格式逆向笔记：TBL / PAC / 压缩 / FHM / 语言容器，含字段偏移表 |
 | [docs/WORKLOG.md](docs/WORKLOG.md) | 完整工作日志：时间线、每次失败的原因、最终结论 |
 | [docs/AGENT-HANDOFF.md](docs/AGENT-HANDOFF.md) | **给 AI Agent 的交接文档**：当前状态、脚本契约、待办、禁忌 |
