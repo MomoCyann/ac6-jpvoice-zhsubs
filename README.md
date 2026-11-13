@@ -401,3 +401,4 @@ cp DATA.TBL.bak-original DATA.TBL
 - 使用前提是你**合法拥有**该游戏
 - 修改资源文件属于非官方行为，可能触发反作弊/存档异常，**风险自负**
 - 请勿用于商业用途
+- Ace Combat 及相关名称是 Bandai Namco Entertainment 的商标；本项目与其无任何关联
